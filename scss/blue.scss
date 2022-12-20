@@ -1,0 +1,178 @@
+.blue {
+    height: 800px;
+    width: 100%;
+    background: $blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .blueTop {
+        height: 25%;
+        width: 100%;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .greenLine {
+        background: url(../images/greenLane.svg);
+        height: 3px;
+        width: 150px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .blueBoxGreenLine-2 {
+        background: $green;
+        color: $white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        height: 40px;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .whiteTextTop {
+        color: $white;
+    }
+
+    .whiteTextP {
+        color: $white;
+    }
+
+    .blueBottom{
+        height: 500px;
+        width: 85%;
+        max-width: 1200px;
+       
+       display: flex;
+        justify-content: center;
+        align-items: flex-end;
+       justify-content: space-between;
+      
+    }
+
+
+
+    
+
+
+    .blueBox-1 {
+        height: 400px;
+        width: 320px ;
+        
+    }
+
+    .blueBox-1:hover {
+        height: 420px;
+        width: 340px;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgb(88, 88, 223);
+    }
+    .blueBox-2 {
+        height: 400px;
+        width: 320px;
+        margin-bottom: 32px;
+    }
+    .blueBox-2:hover {
+        height: 420px;
+        width: 340px;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgb(88, 88, 223);
+    }
+    .blueboxTopText-1 {
+        font-size: 20px;
+    }
+
+
+    .blueBoxTop {
+        width: 100%;
+        height: 45%;
+        background: $black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px 5px 0px 0px;
+        gap: 25px;
+    }
+
+.money-1 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dolor {
+    font-size: 35px;
+    width: 30px;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.amout {
+    font-size: 100px;
+    width: 100px;
+}
+
+
+.blueboxTopText-2 {
+    opacity: 0.5;
+}
+    .blueBoxGreenLine {
+        width: 100%;
+        height: 2%;
+        background: $green;
+    }
+
+    .blueBoxBottom {
+        width: 100%;
+        height: 55%;
+        background: $white;
+        color: $grey;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    @media (max-width: 768px){
+        .blue {
+            width: 100%;
+            height: 1300px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            }
+            .blueTop {
+                width: 100%;
+                height: 150px;
+            }
+            .blueBottom {
+                width: 100%;
+                height: 1100px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 15px;
+            }
+        }

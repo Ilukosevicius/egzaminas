@@ -1,0 +1,188 @@
+.black {
+height: 600px;
+width: 100%;
+background: #1C1C1C;
+}
+
+.blackLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blackLeftImg {
+        background: url(../images/img-2.svg);
+        height: 150px;
+        width: 350px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+
+    .blackRight {
+        width: 50%;
+        gap: 30px;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blackTextTop {
+        color: white;
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .blackLine {
+        background: url(../images/line.svg);
+        height: 3px;
+        width: 150px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .blackText {
+        width: 500px;
+        color: white;
+    }
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+    .blackTextBottom {
+        display: flex;
+        gap: 15px;
+
+    }
+
+    .blackbottomImg-1 {
+        width: 70px;
+        height: 70px;
+        background: $orange;
+        border-radius: 100px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .blackbottomImg-1:hover {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    
+    .blackbottomImg-2 {
+        width: 35px;
+        height: 35px;
+        background: url(../images/eye-regular.svg);
+        border-radius: 100px;
+       
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .blackbottomImg-2:hover {
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .blackText-1 {
+        color: white;
+        width: 420px;
+    }
+
+    .blackText-1:hover {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .black-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .commentImg {
+        width: 35px;
+        height: 35px;
+        background: url(../images/comment.svg);
+        border-radius: 100px;
+       
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .commentImg:hover {
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    @media (max-width: 768px){
+        .black {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            
+            
+
+        }
+            .blackTextTop {
+                width: 90%;
+                
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                
+            }
+     
+            .blackText {
+                width: 100%;
+                text-align: center;
+                justify-content: flex-start;
+             
+            }
+        .blackRight {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blackTextBottom {
+            margin-bottom: -20px;
+            margin-left: 10px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 90%;
+        }
+        .black-1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .blackbottomImg-1 {
+            width: 85px;
+        }
+
+        .blackText-1 {
+            width: 90%;
+        }
+
+    }

@@ -1,0 +1,229 @@
+
+.tabs {
+    height: 600px;
+    
+    width: 100%;
+    background: url(../images/tabs-1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: $orange;
+    opacity: 0.4;
+}
+
+
+
+.tabsContent {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+   
+    align-items: center;
+}
+
+.register {
+@include register
+}
+
+.registerRotate {
+    transform: rotate(-45deg);
+}
+
+.registerRotate:hover {
+    transform: rotate(0deg);
+}
+
+.register:hover {
+    @include orangeBoxHover
+}
+.apply:hover {
+    @include orangeBoxHover
+}
+.receive:hover {
+    @include orangeBoxHover
+}
+
+.apply {
+  @include orange-2
+}
+.receive {
+   @include orange-2
+  
+}
+
+.tabsText {
+    width: 50%;
+    
+    color: #FFFFFF;
+  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    z-index: 1;
+
+}
+
+.tabsList {
+    width: 13%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabsFoto {
+    display: flex;
+    width: 37%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.foto-1 {
+    display: flex;
+    gap: 25px;
+}
+
+.cabbage {
+    width: 150px;
+    height: 150px;
+    color: #FFFFFF;
+    font-size: 25px;
+    background: url(../images/cabbage.jpg);
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    transition: 0.1s;
+    z-index: 1;
+}
+
+
+.cabbage:hover {
+    cursor: pointer;
+    position: relative;
+    opacity: 0.8;
+  }
+  .cabbage:hover::after {
+    content: "EXPLORE";
+    position: relative;
+    color: $white;
+    
+  }
+
+    
+        
+
+
+.sandwich {
+    width: 150px;
+    height: 150px;
+    color: #FFFFFF;
+    font-size: 25px;
+    background: url(../images/vegetables.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    transition: 0.1s;
+   z-index: 1;
+}
+
+
+
+ 
+    .sandwich:hover {
+        cursor: pointer;
+        position: relative;
+        opacity: 0.8;
+      }
+      .sandwich:hover::after {
+        content: "EXPLORE";
+        position: relative;
+        color: $white;
+        
+      }
+    
+
+
+.stairs {
+    width: 325px;
+    height: 190px;
+  
+    font-size: 25px;
+    background: url(../images/stairs-1.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    transform: 0.1s;
+    z-index: 1;
+}
+
+
+
+
+
+  .stairs:hover {
+    cursor: pointer;
+    position: relative;
+    opacity: 0.8;
+  }
+  .stairs:hover::after {
+    content: "EXPLORE";
+    position: relative;
+    color: $white;
+    
+  }
+
+
+
+    
+@media (max-width: 768px){
+
+    .tabs {
+        width: 100%;
+        height: 850px;
+    }
+
+    .tabs::before {
+        width: 100%;
+        height: 850px;
+    }
+
+
+    .tabsContent {
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabsList {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+   
+.tabsText {
+    width: 90%;
+}
+
+    }
